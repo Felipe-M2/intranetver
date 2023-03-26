@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Unimed",
+        "link": "https://www.unimedgoiania.coop.br/",
+        "img": "./assets/unimed.png"
+    },
+    {
+        "nome": "Unimed Prestador",
+        "link": "",
+        "img": "./assets/logo.png"
+    },
+    {
+        "nome": "Unimed Geral",
+        "link": "",
+        "img": "./assets/logo.png"
+    },
+    {
+        "nome": "Ipasgo",
+        "link": "",
+        "img": "./assets/logo.png"
+    },
+    {
+        "nome": "teste",
+        "link": "",
+        "img": "./assets/logo.png"
+    }
+]

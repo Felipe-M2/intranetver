@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: 500ms;
+}
+
+/* GERAL */
+:root{
+    --backgrundPrincipal: #82878E;
+    --backgroundSecundario: #2C323A;
+    --backgroundTerciario: #FE5000;
+}
+
+html{
+    background-color: var(--backgrundPrincipal);
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TOPO */
+.topo{
+    background-color: var(--backgroundSecundario);
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 60px;
+    color: #fff;
+}
+
+.topo img{
+    width: 70px;
+}
+
+/* CONTENT */
+.conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* menu */
+.menu{
+    width: 170px;
+    height: calc(100vh - 60px);
+    background-color: var(--backgroundSecundario);
+}
+
+.menuActive{
+    width: 80px;
+}
+
+/* iconBtnMenu */
+.btnMenu{
+    justify-content: right;
+    padding: 10px;
+}
+
+.bi{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* rotasMenu */
+.rotasMenu{
+    flex-direction: column;
+    color: #fff;
+    gap: 15px
+}
+
+.rotas{
+    width: 120px;
+    border-radius: 0 20px 0 20px;
+    background-color: var(--backgroundTerciario);
+    height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    animation: rotas2 500ms;
+}
+
+.rotas:hover{
+    animation: rotas 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotas {
+    0%{
+        border-radius: 0 20px 0 20px; 
+    }
+
+    100%{
+        border-radius: 20px 0 20px 0;
+    }
+}
+
+@keyframes rotas2 {
+    0%{
+        border-radius: 20px 0 20px 0;
+    }
+
+    100%{
+        border-radius: 0 20px 0 20px; 
+    }
+}
+
+.rotas .bi{
+    font-size: 0.9rem;
+    padding-right: 6px;
+}
+
+.menuActive > .rotasMenu > .rotas > span{
+    display: none;
+}
+
+.menuActive > .rotasMenu > .rotas{
+    width: 50px;
+}
+
+/* convenios */
+.convenios{
+    width: 100%;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.barTarefas{
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.pesquisaConvenios{
+    gap: 15px;
+}
+
+.inputPesquisa{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.bi-search{
+    width: 40px;
+    height: 40px;
+    background-color: var(--backgroundTerciario);
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+
+.formaList{
+    border-bottom: 1px solid var(--backgroundTerciario);
+}
+
+.formaList .bi{
+    padding: 3px 10px;
+}
+
+.formaList .bi:hover{
+    color: var(--backgroundTerciario)
+}
+
+/* CradsConvenios */
+.conveniosDados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardConvenio{
+    text-align: center;
+    width: 130px;
+    height: 120px;
+    background-color: #ffffff67;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cardConvenio,
+.cardConvenio a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+.cardConvenio a img{
+    width: 120px;
+}
+
+.conveniosDadosActive{
+    flex-direction: column;
+    align-items: center;
+}
+
+.conveniosDadosActive .cardConvenio{
+    width: 80%;
+    height: 80px;
+}
+
+.conveniosDadosActive .cardConvenio a{
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.conveniosDadosActive .cardConvenio img{
+    width: 120px;
+}
+
+.cardConvenio p{
+    text-decoration: underline var(--backgroundTerciario);
+}
+
+/* CardPesquisa */
+.pesquisaResult{
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    background-color: var(--backgroundSecundario);
+    transition: 500ms;
+}
+
+.cardConvenioPesquisa{
+    width: 300px;
+}
+
+.cardConvenioPesquisa > a{
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    align-items: center;
+    color: #fff;
+}
+
+.cardConvenioPesquisa a img{
+    width: 50px;
+}

@@ -1,27 +1,197 @@
 [
     {
+        "nome": "AFFEGO",
+        "link": "https://www.affego.com.br/login_prestador.php",
+        "img": "./assets/convenios/affego.png"
+    },
+    {
+        "nome": "ASSEFAZ - Autorizador",
+        "link": "https://autoassefaz.bennercloud.com.br/autorizador/custom/CustomLogin.aspx",
+        "img": "./assets/convenios/assefaz.png"
+    },
+    {
+        "nome": "AHEG",
+        "link": "http://www.aheg.com.br/",
+        "img": "./assets/convenios/AHEG.png"
+    },
+    {
+        "nome": "Autorizador WEB",
+        "link": "http://autorizadorweb.startiss.com.br/Login.aspx?AspxAutoDetectCookieSupport=1",
+        "img": "./assets/convenios/autorizadorweb.png"
+    },
+    {
+        "nome": "Bradesco Saúde",
+        "link": "https://wwws.bradescosaude.com.br/PCBS-GerenciadorPortal/td/loginReferenciado.do",
+        "img": "./assets/convenios/bradescosaude.png"
+    },
+    {
+        "nome": "CAPC",
+        "link": "https://www.capc.com.br/historico/",
+        "img": "./assets/convenios/capc.png"
+    },
+    {
+        "nome": "CAPESESP",
+        "link": "https://servicos.capesesp.com.br/",
+        "img": "./assets/convenios/capesesp.png"
+    },
+    {
+        "nome": "CAEME",
+        "link": "https://www.caemesaude.com.br/",
+        "img": "./assets/convenios/caeme.png"
+    },
+    {
+        "nome": "CASSI",
+        "link": "http://www.cassi.com.br/index.php?option=com_content&view=category&layout=blog&id=118&Itemid=101&uf=GO",
+        "img": "./assets/convenios/cassi.webp"
+    },
+    {
+        "nome": "VivaCom",
+        "link": "https://portal.saudevivacom.com.br/as-vivacom/pp/",
+        "img": "./assets/convenios/vivacom.png"
+    },
+    {
+        "nome": "Conab",
+        "link": "https://sasconsulta.conab.gov.br/elegibilidade",
+        "img": "./assets/convenios/conab.png"
+    },
+    {
+        "nome": "GEAP",
+        "link": "https://www.geap.com.br/",
+        "img": "./assets/convenios/geap.svg"
+    },
+    {
+        "nome": "IMAS",
+        "link": "https://imassaude.com.br/as-imas/pp/",
+        "img": "./assets/convenios/imas.png"
+    },
+    {
+        "nome": "Ipasgo - geral",
+        "link": "http://www.ipasgo.go.gov.br/",
+        "img": "./assets/convenios/ipasgo.png"
+    },
+    {
+        "nome": "Ipasgo - prestador",
+        "link": "http://portalsistemas.ipasgo.go.gov.br/SAAT/login.asp",
+        "img": "./assets/convenios/ipasgo.png"
+    },
+    {
+        "nome": "Ipasgo - Agenda On-line",
+        "link": "http://www.ipasgo.go.gov.br/",
+        "img": "./assets/convenios/ipasgo.png"
+    },
+    {
+        "nome": "life empresarial",
+        "link": "https://portal.lifeempresarial.com.br/PlanodeSaude/",
+        "img": "./assets/convenios/life.png"
+    },
+    {
+        "nome": "Mediservice",
+        "link": "https://mediservice.com.br/",
+        "img": "./assets/convenios/mediservice.png"
+    },
+    {
+        "nome": "Orizon",
+        "link": "https://www.orizonbrasil.com.br/",
+        "img": "./assets/convenios/orizon.png"
+    },
+    {
+        "nome": "Petrobras",
+        "link": "https://portaltiss.saudepetrobras.com.br/saudeweb/seguranca/login?appCMP=true&service=https%3A%2F%2Fportaltiss.saudepetrobras.com.br%2Fconectividade%2Fj_spring_cas_security_check",
+        "img": "./assets/convenios/petrobras.png"
+    },
+    {
+        "nome": "Plan-Assiste",
+        "link": "http://www.planassiste.mpu.mp.br/",
+        "img": "./assets/convenios/plan.png"
+    },
+    {
+        "nome": "Planmed",
+        "link": "https://planmed.com.br/",
+        "img": "./assets/convenios/planmed.png"
+    },
+    {
+        "nome": "Itau Saúde",
+        "link": "https://www.saudeportomed.com.br/sso/?ReturnUrl=%2ftiss3%2f&roleName=TISS3",
+        "img": "./assets/convenios/itau.png"
+    },
+    {
+        "nome": "Portal Saúde",
+        "link": "https://www.saudeportomed.com.br/sso/?ReturnUrl=%2ftiss3%2f&roleName=TISS3",
+        "img": "./assets/convenios/portalsaude.png"
+    },
+    {
+        "nome": "e-Portal",
+        "link": "http://portal.trf1.jus.br/e-prosocial/index.aspx",
+        "img": "./assets/convenios/eportal.png"
+    },
+    {
+        "nome": "PROASA",
+        "link": "https://proasa.org.br/",
+        "img": "./assets/convenios/proasa.png"
+    },
+    {
+        "nome": "SAMP AGMP",
+        "link": "https://samp.org.br/prestador/index.php",
+        "img": "./assets/convenios/samp.png"
+    },
+    {
+        "nome": "SNT",
+        "link": "https://snt.saude.gov.br/",
+        "img": "./assets/convenios/snt.jpg"
+    },
+    {
+        "nome": "SAW",
+        "link": "http://saw.trixti.com.br/saw/Logar.do?method=abrirSAW",
+        "img": "./assets/convenios/saw.png"
+    },
+    {
+        "nome": "Saúde Caixa",
+        "link": "https://saude.caixa.gov.br/PORTALPRD/Login?ReturnUrl=%2fPORTALPRD%2f%3f",
+        "img": "./assets/convenios/saudecaixa.png"
+    },
+    {
+        "nome": "Saúde Caixa - Autorizador",
+        "link": "https://saude.caixa.gov.br/AutorizadorPRD/login.aspx",
+        "img": "./assets/convenios/saudecaixa.png"
+    },
+    {
+        "nome": "SulAmérica",
+        "link": "https://saude.sulamericaseguros.com.br/prestador/login/",
+        "img": "./assets/convenios/sulamerica.png"
+    },
+    {
         "nome": "Unimed",
-        "link": "https://www.unimedgoiania.coop.br/",
-        "img": "./assets/unimed.png"
+        "link": "https://www.unimed.coop.br/pct/index.jsp?cd_canal=49146",
+        "img": "./assets/convenios/unimed.png"
     },
     {
-        "nome": "Unimed Prestador",
-        "link": "",
-        "img": "./assets/logo.png"
+        "nome": "Unimed - Agendamento On-Line",
+        "link": "http://agendaonline.unimedgoiania.coop.br/GUI/PrincipalAOL.aspx",
+        "img": "./assets/convenios/unimed.png"
     },
     {
-        "nome": "Unimed Geral",
-        "link": "",
-        "img": "./assets/logo.png"
+        "nome": "Unimed Autorizador",
+        "link": "https://autorizador.unimedgoiania.coop.br/",
+        "img": "./assets/convenios/unimed.png"
     },
     {
-        "nome": "Ipasgo",
-        "link": "",
-        "img": "./assets/logo.png"
+        "nome": "Unimed Autorizador sgucard",
+        "link": "https://sgucard.unimedgoiania.coop.br/cmagnet/Login.do",
+        "img": "./assets/convenios/unimed.png"
     },
     {
-        "nome": "teste",
-        "link": "",
-        "img": "./assets/logo.png"
+        "nome": "Casembrapa",
+        "link": "http://170.84.17.131:22101/sistema",
+        "img": "./assets/convenios/casembrapa.png"
+    },
+    {
+        "nome": "IAMESC",
+        "link": "https://iamesc.asertsaude.com.br/as-iamesc/pp/",
+        "img": "./assets/convenios/iamesc.jpg"
+    },
+    {
+        "nome": "TRF1 - Guias e Formulários",
+        "link": "http://portal.trf1.jus.br/portaltrf1/servidor/acoes-e-programas/pro-social/pro-social/assistencia-indireta/guias-e-formularios/",
+        "img": "./assets/convenios/eportal.png"
     }
 ]
